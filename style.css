@@ -1,0 +1,173 @@
+/* body */
+body{
+    overflow-x: hidden;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.profile {
+    width: 550px;
+}
+.profile-mission{
+    color: rgb(209, 209, 28);
+}
+.profile p{
+    color: rgb(103, 96, 96);
+    line-height: 25px;
+    
+}
+.profile button{
+    background-color: rgb(188, 51, 51);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 30px;
+}
+.profile button:hover{
+    background-color: rgba(233, 19, 19, 0.7);
+}
+header img{
+    width: 400px;
+}
+
+/* Main */
+.my-mission {
+    color: rgb(81, 78, 78);
+    text-align: center;
+}
+.target {
+    width: 1027px;
+    max-width: 95%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.target .info{
+    margin-right: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+.info:nth-child(3){
+    margin-right: 0px;
+}
+.target .info p {
+    color: rgb(160, 151, 151);
+    font-size: 17px;
+}
+.target .mission {
+    background-color: rgb(241, 243, 245);
+}
+.target .vision {
+    background-color: rgb(248, 242, 242);
+}
+.target .goals {
+    background-color: rgb(234, 227, 204);
+}
+
+/* develop */
+.develop{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.develop img{
+    width: 400px;
+}
+.develop-text{
+    width: 550px;
+}
+.develop-text h1 {
+    margin-top: 50px;
+}
+.develop-text p {
+    line-height: 25px;
+}
+.develop-text button{
+    background-color: rgb(188, 51, 51);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 30px;
+}
+.global{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.global-text {
+    width: 550px;
+}
+.global-text h1 {
+    margin-top: 50px;
+}
+.global-text p {
+    line-height: 25px;
+}
+.global img{
+    width: 400px;
+}
+.global-text button{
+    background-color: rgb(188, 51, 51);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 30px;
+}
+/* project */
+.build {
+    text-align: center;
+}
+.project {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.project img {
+    width: 400px;
+}
+.project .project-text {
+    width: 550px;
+    align-items: center;
+}
+.project-text h1 {
+    margin-top: 100px;
+}
+.project-text p {
+    line-height: 25px;
+}
+.project-text button{
+    background-color: rgb(188, 51, 51);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 30px;
+}
+footer {
+    background-color: rgb(117, 40, 97);
+    text-align: center;
+    padding: 10px;
+}
+footer h1{
+    font-style: italic;
+}
+footer p{
+    margin-bottom: 40px;
+}
